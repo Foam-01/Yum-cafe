@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+      <div class="logo">
+        <a href="#">Logo</a>
+      </div>
+
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#our-menu">OUR MENU</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="index.html#services-section">SERVICES</a></li>
+        <li><a href="reservation.html">RESERVATIONS</a></li>
+        <li><a href="Contact.html">CONTACT US</a></li>
+      </ul>
+
+      <ul class="account-menu">
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+
+    <div class="about-header">
+      <img src="/img/img6.jpg!sw800" alt="" width="100%" height="400px" />
+      <div class="about-overlay">
+        <h1>Reservation Form</h1>
+        <hr class="yellow-short" />
+      </div>
+    </div>
+
+     <div style="text-align:center; margin-top: 40px; color: #024427; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 2rem;">
+  <p>Monday to Friday: 09:00 - 20:00<br>Saturday: 10:00 - 20:00</p>
+  <p>Contact us: <a href="tel:0813580056" style="color:#77b300; text-decoration:none;">081-358-0056</a>, <a href="tel:0813580058" style="color:#77b300; text-decoration:none;">081-358-0058</a></p>
+</div>
+
+
+<div class="card">
+  
+  <form class="reservation-form-grid">
+    <div class="form-row two-columns">
+      <div class="form-group">
+        <label for="name">Name - Lastname :</label>
+        <input type="text" id="name" name="name" placeholder="Name - Lastname" required>
+      </div>
+      <div class="form-group">
+        <label for="tel">Telephone Number :</label>
+        <input type="tel" id="tel" name="tel" placeholder="Telephone Number" required>
+      </div>
+    </div>
+
+    <div class="form-row two-columns">
+      <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+      </div>
+      <div class="form-group">
+        <label for="lineid">LineID :</label>
+        <input type="text" id="lineid" name="lineid" placeholder="LineID">
+      </div>
+    </div>
+
+    <div class="form-row three-columns">
+      <div class="form-group">
+        <label for="date">Reservation Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="time">Time :</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+      <div class="form-group">
+        <label for="seats">Number of Seats :</label>
+        <input type="number" id="seats" name="seats" min="1" value="1" required>
+      </div>
+    </div>
+
+    <div class="form-row one-column order-food">
+      <label>Order food?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="orderFood" value="yes" required> Yes</label>
+        <label><input type="radio" name="orderFood" value="no"> No</label>
+      </div>
+    </div>
+
+    <div class="form-row btn-row">
+      <button type="submit" class="button-2 btn-primary">Book a Table</button>
+    </div>
+  </form>
+</div>
+
+<section class="delivery-section">
+  <h2>Delivery Service</h2>
+  <hr class="yellow-short" />
+  <p class="delivery-intro">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </p>
+
+  <div class="delivery-content">
+    <div class="left-side">
+      <!-- รูปคนขี่มอเตอร์ไซค์ใส่เอง -->
+      <img src="https://cdn.sogoodweb.com/Preview/636/images/delivery.png" alt="Delivery man" />
+    </div>
+
+    <div class="right-side">
+      <h3>Free Delivery</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      </p>
+      <ul>
+        <li>Nam quis nibh eget dui dictum sodales nec a urna.</li>
+        <li>Duis eget nibh vitae mi volutpat sollicitudin ut eu risus.</li>
+        <li>Nullam condimentum dui a egestas dignissim.</li>
+        <li>Duis varius purus ac lacus rhoncus, non lobortis sem.</li>
+      </ul>
+
+      
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>088-358-0056, 081-358-0058</p>
+      <h4>Open Time</h4>
+      <p>Monday-Friday: 9:00 am - 20:00 pm<br>Saturday: 10:00 am - 20:00 pm</p>
+    </div>
+    <div class="footer-quicklink">
+      <h3>Quick Link</h3>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Menu/Specials</a></li>
+        <li><a href="#">Reservation</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-follow">
+      <h3>Follow Us</h3>
+      <p>088-358-0056, 088-358-0058</p>
+      <p>287 Moo 5, San Sai Noi, San Sai, Chiang Mai, 50210, Thailand</p>
+      <p><a href="mailto:sale@sogoodweb.com">sale@sogoodweb.com</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2023 SoGoodWeb Demo Store.</p>
+    <p>
+      Powered by <a href="https://sogoodweb.com" target="_blank" rel="noopener noreferrer">SoGoodWeb.com</a> | 
+      <a href="#">Login</a> | <a href="#top">Back to Top</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
