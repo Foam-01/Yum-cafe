@@ -35,7 +35,7 @@ A beautiful and responsive website for Yum-cafe, a bakery and cafe that serves d
 ## 🔗 Live Demo & Repository
 
 - 🔴 **Live Demo**: https://yum-cafe.netlify.app/
-- 📦 **GitHub**: https://github.com/Foam-01/Portfolio?tab=readme-ov-file
+- 📦 **GitHub**: https://github.com/Foam-01/Yum-cafe
 
 ## 🏁 Getting Started
 ```bash
